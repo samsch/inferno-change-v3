@@ -1,5 +1,5 @@
 import 'babel-polyfill';
-import Inferno, { render as infernoRender } from 'inferno';
+import { render as infernoRender } from 'inferno';
 import createStore from '@samsch/subscribe-store';
 import Component from './Component';
 
