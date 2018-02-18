@@ -1,0 +1,23 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "browsers": [
+            "last 2 Chrome versions",
+            "last 2 Firefox versions",
+            "last 2 iOS versions",
+            "last 2 edge versions"
+          ]
+        },
+        "useBuiltIns": "entry",
+        "modules": false
+      }
+    ]
+  ],
+  "plugins": [
+    ["babel-plugin-inferno", { "import": true }],
+    "transform-object-rest-spread"
+  ]
+}
